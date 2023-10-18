@@ -62,9 +62,12 @@ int main(int argc, char **argv) {
         {
           if(i <=  n-1)
           {
-            printf("%d",i);
+            printf("%d, ",i);
           }
-         
+          else
+          {
+            printf("%d ",i);
+          }
         }
   //4. Print squares of numbers 1 thru n separated by a comma
   //   except for the last one; example: 1, 4, 9, 16, 25
