@@ -105,7 +105,12 @@ int main(int argc, char **argv) {
        
   //7. Compute the summation of even numbers 1 thru n and print
   //   the result; example (n=5): 2 + 4 = 6
-
+        int reuslt_01 = 0;
+        for(int i = 1; i <= n; i++)
+        {
+          
+        }
+     
   //8. Write a solution to the following variation of the FizzBuzz
   //   problem.  Print out integers 1 thru n, one to a line, except
   //   that if the integer is divisible by 7 print "Foo" instead.
