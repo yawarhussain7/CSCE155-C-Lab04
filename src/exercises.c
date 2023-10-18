@@ -89,7 +89,7 @@ int main(int argc, char **argv) {
         // }
       }
       printf("\n");
-  printf("Sum of 1 thru %d = %d\n",n,sum);
+  printf("Sum of 1  thru %d = %d\n",n,sum);
   //6. Compute the summation of squares of numbers 1 thru n
   //   and print the result; example: 1^2 + 2^2 + 3^2 + 4^2 + 5^2 = 55
 
