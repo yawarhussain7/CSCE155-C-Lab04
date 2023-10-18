@@ -100,7 +100,8 @@ int main(int argc, char **argv) {
         {
           result += a*square;
         }
-
+        
+  printf("Square of %d^%d thur %d^%d = %d\n",1,square,n,square,result);
        
   //7. Compute the summation of even numbers 1 thru n and print
   //   the result; example (n=5): 2 + 4 = 6
