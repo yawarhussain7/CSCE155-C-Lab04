@@ -108,7 +108,13 @@ int main(int argc, char **argv) {
         int reuslt_01 = 0;
         for(int i = 1; i <= n; i++)
         {
-          
+          if(i%2!=0)
+          {
+            continue;
+          }
+          else
+          reuslt_01 +=i;
+            
         }
      
   //8. Write a solution to the following variation of the FizzBuzz
