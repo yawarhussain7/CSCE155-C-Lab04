@@ -83,6 +83,10 @@ int main(int argc, char **argv) {
         {
           printf("%d + ",i);
         }
+        else
+        {
+          printf("%d = %d ",i,sum );
+        }
       }
    
   //6. Compute the summation of squares of numbers 1 thru n
