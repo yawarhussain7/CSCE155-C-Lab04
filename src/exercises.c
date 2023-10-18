@@ -31,7 +31,7 @@ int main(int argc, char **argv) {
     printf("%d\n",i);
     i++;
    }
-
+  printf("\n");
 
   for(int i=10; i<20; i+=3) {
     printf("%d ", i);
@@ -69,12 +69,19 @@ int main(int argc, char **argv) {
             printf("%d ",i);
           }
         }
+        printf("\n");
   //4. Print squares of numbers 1 thru n separated by a comma
   //   except for the last one; example: 1, 4, 9, 16, 25
       
   //5. Compute the summation of numbers 1 thru n and print
   //   the result; example: 1 + 2 + 3 + 4 + 5 = 15
-
+      int sum = 0;
+      for(int i  = 1; i <= n ; i++)
+      {
+        sum = sum + i;
+      
+      }
+   
   //6. Compute the summation of squares of numbers 1 thru n
   //   and print the result; example: 1^2 + 2^2 + 3^2 + 4^2 + 5^2 = 55
 
