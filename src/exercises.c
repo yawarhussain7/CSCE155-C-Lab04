@@ -44,7 +44,7 @@ int main(int argc, char **argv) {
   while (i < 20)
   {
    printf("%d ", i);
-   i++;
+   i +=3;
   }
     printf("\n");
   
