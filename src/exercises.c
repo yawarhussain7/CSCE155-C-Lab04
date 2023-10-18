@@ -79,7 +79,10 @@ int main(int argc, char **argv) {
       for(int i  = 1; i <= n ; i++)
       {
         sum = sum + i;
-      
+        if(i <= n-1)
+        {
+          printf("%d + ",i);
+        }
       }
    
   //6. Compute the summation of squares of numbers 1 thru n
