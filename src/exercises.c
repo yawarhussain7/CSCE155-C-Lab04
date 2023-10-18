@@ -19,6 +19,7 @@ int main(int argc, char **argv) {
 
   int n = atoi(argv[1]);
 
+
   // A simple for loop that prints 0 thru 9
   for(int i=0; i<10; i++) {
     printf("%d\n", i);
@@ -88,11 +89,15 @@ int main(int argc, char **argv) {
         //   printf("%d = %d ",i,sum );
         // }
       }
-      printf("\n");
+     
   printf("Sum of 1  thru %d = %d\n",n,sum);
+ 
   //6. Compute the summation of squares of numbers 1 thru n
   //   and print the result; example: 1^2 + 2^2 + 3^2 + 4^2 + 5^2 = 55
-
+        int result = 0;
+        int square = 2;
+      
+       
   //7. Compute the summation of even numbers 1 thru n and print
   //   the result; example (n=5): 2 + 4 = 6
 
@@ -102,6 +107,6 @@ int main(int argc, char **argv) {
   //   If the integer is divisible by 11 print "Bar" instead.  If
   //   the integer is divisible by both 7 and 11, print "FooBar"
   //   instead.
-
+        
   return 0;
 }
