@@ -39,6 +39,16 @@ int main(int argc, char **argv) {
   printf("\n");
 
   //2. Rewrite the given while loop as an equivalent for loop
+
+  int i = 10 ;
+  while (i < 20)
+  {
+   printf("%d ", i);
+   i++;
+  }
+    printf("\n");
+  
+
   int k = 3;
   while(k > -4) {
     printf("%d ", k);
