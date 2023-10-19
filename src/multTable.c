@@ -25,7 +25,7 @@ int main(int argc, char **argv) {
     int printer = 1;
     for(int i = 1; i <= n; i++)
     {
-      
+       printf("%d ",printer);
     }
   }
 
