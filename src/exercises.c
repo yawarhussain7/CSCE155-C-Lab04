@@ -125,7 +125,11 @@ int main(int argc, char **argv) {
   //   instead.
         for(int i = 1; i <= n ;i++)
         {
-          
+          if(i % 7 == 0)
+          {
+            printf("Foo");
+          }
+        
         }
   return 0;
 }
