@@ -123,6 +123,9 @@ int main(int argc, char **argv) {
   //   If the integer is divisible by 11 print "Bar" instead.  If
   //   the integer is divisible by both 7 and 11, print "FooBar"
   //   instead.
-        
+        for(int i = 1; i <= n ;i++)
+        {
+          
+        }
   return 0;
 }
