@@ -133,7 +133,10 @@ int main(int argc, char **argv) {
           {
             pirntf("Bar");
           }
-       
+             else if((i % 7 == 0) && (i % 11 == 0))
+          {
+            printf("FooBar");
+          }        
         }
   return 0;
 }
