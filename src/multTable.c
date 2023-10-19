@@ -20,6 +20,14 @@ int main(int argc, char **argv) {
     printf("empty table!\n");
     exit(0);
   }
+  else
+  {
+    int printer = 1;
+    for(int i = 1; i <= n; i++)
+    {
+      
+    }
+  }
 
   return 0;
 }
