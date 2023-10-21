@@ -132,15 +132,19 @@ int main(int argc, char **argv) {
           if(i % 7 == 0)
           {
             printf("Foo");
+          
           }
           else if(i % 11 == 0)
           {
-            pirntf("Bar");
+            printf("Bar");
+         
           }
              else if((i % 7 == 0) && (i % 11 == 0))
           {
             printf("FooBar");
+          
           }        
+
         }
   return 0;
 }
