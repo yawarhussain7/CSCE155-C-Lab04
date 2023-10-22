@@ -76,7 +76,14 @@ int main(int argc, char **argv) {
         int result_04 = 0;
         for(int i = 1; i <= n; i++)
         {
-          
+          result_04 = i*i;
+          if(i <=  n-1)
+          {
+             printf("%d, ",result_04);
+          }
+          else {
+             printf("%d",result_04);
+          }
         }
   //5. Compute the summation of numbers 1 thru n and print
   //   the result; example: 1 + 2 + 3 + 4 + 5 = 15
