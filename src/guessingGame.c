@@ -33,7 +33,10 @@ int main(int argc, char **argv) {
   do
   {
     scanf("%d",&guess);
-    
+    if(guess < 1 || guess > number)
+    {
+      printf("Invalid input please try  again......! \n");
+    }
   } while (guess != number);
   
 
