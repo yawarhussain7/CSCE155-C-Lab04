@@ -39,7 +39,12 @@ int main(int argc, char **argv) {
     }
     else
     {
-     
+     numGuesses++;
+
+     if(guess > number)
+     {
+      printf("Too low! Try again.\n");
+     }
     }
   
   } while (guess != number);
