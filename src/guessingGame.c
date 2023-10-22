@@ -32,6 +32,7 @@ int main(int argc, char **argv) {
 
   do
   {
+    scanf("%d",&guess);
     
   } while (guess != number);
   
