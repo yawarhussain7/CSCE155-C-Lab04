@@ -43,12 +43,13 @@ int main(int argc, char **argv) {
 
      if(guess > number)
      {
-      printf("Too low! Try again.\n");
+      printf("Too higher! Try again.\n");
      }
      else if(guess < number)
      {
-        printf("Too higher! Try again.\n");
+        printf("Too low! Try again.\n");
      }
+
     }
   
   } while (guess != number);
