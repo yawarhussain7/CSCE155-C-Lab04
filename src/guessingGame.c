@@ -37,9 +37,9 @@ int main(int argc, char **argv) {
     {
       printf("Invalid input please try  again......! \n");
     }
-    else if(guess == number)
+    else
     {
-       printf("Congratulations, you found it! Number of guesses: %d \n",guess);
+     
     }
   
   } while (guess != number);
